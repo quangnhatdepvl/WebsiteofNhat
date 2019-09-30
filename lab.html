@@ -165,7 +165,7 @@ p.a {
 
 
 <div id="Home" class="tabcontent">
-
+  <h3>Requiment</h3>
   <table  border = "1">
 					<thead>
 						
@@ -210,23 +210,85 @@ p.a {
 
 <div id="News" class="tabcontent">
   
-        <h3><strong> Thiết kế trên giấy </strong> </h3>
-		<img src="img\three.jpg"height="600" width="600"><br>	
-<img src="img\two.jpg"height="600" width="600">
-<img src="img\one.jpg"height="600" width="600">
+       <div class="card">
+							<div class="card-header">
+								<a class="collapsed card-link" data-toggle="collapse"
+									href="#collapsethree">Thiết kế trên giấy</a>
+							</div>
+							<h4><center> <i>Thiết kế tổng quan</i></center><br> </h4>
+		<img src="img\three.jpg"height="600" width="600"><br><hr>
+		<h4><center> <i>Chức năng thêm phim</i></center> </h4><br>
+<img src="img\one.jpg"height="600" width="600"><br><hr>
+	<h4><center> <i>Chức năng sửa phim</i></center> </h4><br>
+<img src="img\two.jpg"height="600" width="600"><br>
+<div class="card-header">
+								<a class="collapsed card-link" data-toggle="collapse"
+									href="#collapsethree">Tải toàn bộ hình ảnh </a>
+							</div>
+<a href = "imglab1.zip"> 
+			<button style="width: 200px; height: 50px; margin-left: 30px; border: 1px solid yellow; font-family: Arial; color: black" type="button" class="btn btn-info btn-lg" >
+  <i class="fa fa-cloud-download"></i> Download</button></a>
 		
-		<h3><strong> Chức năng quản lý phim</strong></h3>
+	<div class="card">
+							<div class="card-header">
+								<a class="collapsed card-link" data-toggle="collapse"
+									href="#collapsethree">Chức năng quản lý phim</a>
+							</div>
 <img src="img\quanly.png"height="600" width="600">
-				<h3><strong> Chức năng thêm phim</strong></h3></br>
+<a href = "find.fig"> 
+			<div style="position:relative;left:700px;top:0	px;background-color : black;>
+												<button type="button" class="btn btn-secondary"
+													style="height: 40px;">
+													<i>Download File </i>
+													
+													</div>	
+													<div>
+			<div class="card">
+							<div class="card-header">
+								<a class="collapsed card-link" data-toggle="collapse"
+									href="#collapsethree">Chức năng thêm phim</a>
+							</div>
 <img src="img\addvao.png"height="600" width="600">
-				<h3><strong> Chức năng sửa phim</strong></h3></br>
+<a href = "addfig.fig"> 
+			<div style="position:relative;left:700px;top:0	px;background-color : black;>
+												<button type="button" class="btn btn-secondary"
+													style="height: 40px;">
+													<i>Download File </i>
+													
+													</div>	
+													<div>
+			<div class="card">
+							<div class="card-header">
+								<a class="collapsed card-link" data-toggle="collapse"
+									href="#collapsethree">Chức năng sửa phim</a>
+							</div>
 <img src="img\edit.png"height="600" width="600">
-<h3>Tải File</h3></br>
+
+<a href = "sua.fig"> 
+<div style="position:relative;left:700px;top:0	px;background-color : black;>
+												<button type="button" class="btn btn-secondary"
+													style="height: 40px;">
+													<i>Download File </i>
+													
+													</div>	
+													<div>
+
+			
+<div class="card">
+							<div class="card-header">
+								<a class="collapsed card-link" data-toggle="collapse"
+									href="#collapsethree">Tải toàn bộ file</a>
+							
 <a href = "lab1.zip"> 
 			<button style="width: 200px; height: 50px; margin-left: 30px; border: 1px solid yellow; font-family: Arial; color: black" type="button" class="btn btn-info btn-lg" >
   <i class="fa fa-cloud-download"></i> Download</button></a>
 </div>
-
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 <div id="Contact" class="tabcontent">
   <<div class="card-header">
 								<a class="collapsed card-link" 
@@ -272,7 +334,7 @@ p.a {
 					<td><center>Avenger: End Game</center></td>
 					<td><center>Anthony Russo, Joe Russo</center></td>
 					<td><center>22 tháng 4, 2019</center></td>
-					<td><center>8.9</center>	</td>
+					<td><center>8.9</center></td>
 						<td><button type="button" class="btn btn-success">
 					<i class="fa fa-info-circle"></i></button> <a href="Edit.html">
 					<button type="button" class=" fa fa-edit btn btn-info"></button>
@@ -356,13 +418,11 @@ p.a {
 											phim mới</h2>
 									
 										<div class="row mb-1">
-											<div class="col-sm-2" style="color: #0099CC;">-Tên Phim 
-												</div>
+											<div class="col-sm-2" style="color: #0099CC;">- Tên Phim</div>
 											<div class="col-sm-4">
-												<input type="number" name="id1"
+												<input type="text" name="name1"
 													placeholder="Nhập vào tên phim..." value=""
-													style="width: 250px; hight: 30px; border: 1px solid #0099CC;"
-													autofocus>
+													style="width: 250px; hight: 30px; border: 1px solid #0099CC;">
 											</div>
 										</div>
 
@@ -430,13 +490,11 @@ p.a {
 											bộ phim</h2>
 									
 										<div class="row mb-1">
-											<div class="col-sm-2" style="color: #0099CC;">-Tên Phim 
-												</div>
+											<div class="col-sm-2" style="color: #0099CC;">- Tên Phim</div>
 											<div class="col-sm-4">
-												<input type="number" name="id1"
+												<input type="text" name="name1"
 													placeholder="Nhập vào tên phim..." value=""
-													style="width: 250px; hight: 30px; border: 1px solid #0099CC;"
-													autofocus>
+													style="width: 250px; hight: 30px; border: 1px solid #0099CC;">
 											</div>
 										</div>
 
