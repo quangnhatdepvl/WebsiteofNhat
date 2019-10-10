@@ -1,0 +1,15 @@
+.lab2 {
+    width: 1050px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lab2 .nhanvien{
+    margin-bottom: 50px; 
+}
+
+.lab2 img{
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+
+}
