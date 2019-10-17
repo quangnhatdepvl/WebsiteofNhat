@@ -637,8 +637,8 @@ pre code {
 }
 
 .no-gutters {
-    margin-right: 0;
-    margin-left: 0
+    margin-right: -10px;
+    margin-left: -10px;
 }
 
 .no-gutters>.col,
@@ -6904,6 +6904,7 @@ button.bg-dark:hover {
     -webkit-box-align: center!important;
     -ms-flex-align: center!important;
     align-items: center!important;
+    background-color: black;
    
    
 }
